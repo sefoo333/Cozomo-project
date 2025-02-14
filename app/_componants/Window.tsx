@@ -12,7 +12,7 @@ function Window(props: any) {
     <>
     <div className="Window fixed w-full h-full left-0 top-0" style={{backgroundColor:"rgba(0, 0, 0, 0.397)"}}></div>
     <div className="parent_Window w-[80%] z-20 h-[80%] max-xl:w-[95%] max-lg:h-[95%] fixed left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] bg-white rounded-[30px] ">
-        <div className="conainter h-full flex flex-col overflow-y-scroll overflow-x-hidden scroll-m-0 scroll-p-0">
+        <div className="conainter h-full flex flex-col max-lg:overflow-y-scroll overflow-x-hidden scroll-m-0 scroll-p-0">
             <div className="exit px-[30px] pt-[20px]" onClick={() => {
                 setClick(false)
             }}>
