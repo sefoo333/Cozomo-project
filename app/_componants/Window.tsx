@@ -18,12 +18,12 @@ function Window(props: any) {
             }}>
                 <MdCancel className='text-[40px] text-right float-right  cursor-pointer text-[#859F3D]' />
             </div>
-            <div className="informations max-lg:flex-col flex justify-between px-[50px] h-full gap-[60px] max-lg:gap-0 w-full items-center">
-                <div className="image w-[50%] h-[90%] bg-slate-800 rounded-[30px] flex items-center overflow-hidden">
+            <div className="informations max-lg:flex-col flex justify-between px-[50px] h-full gap-[60px] max-lg:gap-0 w-full items-center max-lg:h-[1200px]">
+                <div className="image max-md:w-fit w-[50%] h-[90%] bg-slate-800 rounded-[30px] flex items-center overflow-hidden">
 <Image src={props.data.image} className='w-full object-contain' alt='' width={300} height={500} />
                 </div>
                 <div className="texts w-full h-[90%]">
-                   <div className="head mb-[40px]">
+                   <div className="head mb-[40px] max-md:my-[30px]">
                    <h1 className='font-semibold text-[65px] max-xl:text-[45px]'>{props.data.Title}</h1>
                    <span className='text-[20px] font-medium text-[#585858]'>{props.data.tag}</span>
                    </div>
