@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-[#1A1A19]  mt-[80px]" id='Footer'>
   <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-8 sm:px-6 lg:px-8 lg:pt-24">
-    <div className="ttte text-center  p-[60px]">
+    <div className="ttte text-center  py-[60px] px-[30px]">
       <h2 className="text-3xl font-extrabold text-white sm:text-5xl">Get Started Now !</h2>
 
       <p className="mx-auto mt-4 max-w-sm text-gray-500">

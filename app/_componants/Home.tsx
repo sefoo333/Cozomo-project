@@ -46,8 +46,8 @@ function Home2() {
             </h1>
             <p className='text-[22px] font-medium text-center text-[#727070] pb-[15px] max-lg:text-[18px]'>The project starts with an idea</p>
           <div className="buttons flex gap-[20px] mt-[25px] max-lg:mt-[25px]">
-          <RainbowButton><a href="#Projects">Get Started</a></RainbowButton>
-          <RainbowButton><a href="#Recycling">Show More</a></RainbowButton>
+          <RainbowButton><a href="#Projects" className='text-nowrap'>Get Started</a></RainbowButton>
+          <RainbowButton><a href="#Recycling" className='text-nowrap'>Show More</a></RainbowButton>
           </div>
 
         </div>
