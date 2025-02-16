@@ -21,7 +21,7 @@ function Contact() {
                             </div>
                             <div className="ele flex items-center gap-[20px] text-[20px] font-bold text-[#9ca3af]">
                                 <MdOutlineEmail />
-                                <h1>seiftube1@gmail.com</h1>
+                                <h1>Cozomo231@gmail.com</h1>
                             </div>
 
                         </div>
